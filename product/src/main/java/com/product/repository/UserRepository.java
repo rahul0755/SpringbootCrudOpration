@@ -6,4 +6,6 @@ import com.product.Model.User;
 
 public interface UserRepository  extends JpaRepository<User, Long> {
 
+	
+
 }

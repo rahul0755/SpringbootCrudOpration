@@ -46,10 +46,13 @@ public class UserService {
 
 	        return (List<User>) userRepository.findAll();
 	    }
+
 	    public boolean editUserObject(User user)
 		{
 			Long id=user.getId();
+			
 			Optional<User> c1=update(id);
+			
 			User dbcar=c1.get();
 			
 			dbcar.setId(user.getId());
@@ -63,6 +66,7 @@ public class UserService {
 			dbcar.setOs(user.getOs());		
 			
 			userRepository.save(dbcar);
+			
 			return true;
 		}
 }

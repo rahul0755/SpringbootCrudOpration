@@ -62,5 +62,6 @@
     <button type="submit">Register</button>
 </form>
 </div>
+<h1> <a href="/home">Back</a></h1>
 </body>
 </html>

@@ -11,12 +11,17 @@
 <h3>Welcome to Product Home</h3>
 <form action="/GetUserById" method="post">
 <label>Enter userId:</label>
-<input type="text" palceholder="Enter User Id" name="id" id="id">
+<input type="text" placeholder="Enter User Id" name="id" id="id">
 	<button type="submit">view</button>
 </form><br>
 <h1>
-<a href="/register">Register</a>&nbsp;&nbsp;&nbsp;
-<a href=/showuser>Show All User</a><br>
+<a href="/register">Register</a><br><br>
+<a href=/showuser>Show All User</a><br><br>
+<a href="/businessragistration">Register Business</a><br><br>
+<a href="/AllBusinessRegistration">Show all Register Business</a><br><br>
+<a href="/categoryragistration">Category Register</a><br><br>
+<a href ="/Allcategory">All Category</a><br><br>
+<a href ="/productRegistration">Register Product</a><br><br>
 <br>
 <br>
 </h1>

@@ -12,7 +12,7 @@
 	<h3>Welcome to Prodct of Tablab</h3>
 	<br>
 	<h3>All Data</h3>
-	<table border="1" width="90%">
+	<!--  <table border="1" style="width=90%;">
 		<tr>
 			<th>Id</th>
 			<th>FirstName</th>
@@ -30,29 +30,27 @@
 			<th>OS</th>
 			<th>Edit</th>
 			<th>Delete</th>
-		</tr>
-		 <c:forEach  items="${userById}">
-			<tr>
-				<td>${user.id}</td>
-				<td>${user.emailId}</td>
-				<td>${user.mobileNumber}</td>
-				<td>${user.fisrtname}</td>
-				<td>${user.lastname}</td>
-				<td>${user.address}</td>
-				<td>${user.city}</td>
-				<td>${user.state}</td>
-				<td>${user.isBusniessowner}</td>
-				<td>${user.password}</td>
-				<td>${user.otp}</td>
-				<td>${user.avatarId}</td>
-				<td>${user.deviceId}</td>
-				<td>${user.os}</td>
+		</tr> -->
+			<h1>${user}</h1>
+				<%-- <td>${user.id}</td>
+				<td>${user.getFisrtname()}</td>
+				<td>${user.getLastname() }</td>
+				<td>${user.getAddress()}</td>
+				<td>${user.getEmailId()}</td>
+				<td>${user.getMobileNumber()}</td>
+				<td>${user.getCity()}</td>
+				<td>${user.getState() }</td>
+				<td>${user.getIsBusniessowner()}</td>
+				<td>${user.getPassword()}</td>
+				<td>${user.getOtp()}</td>
+				<td>${user. getAvatarId()}</td>
+				<td>${user.getDeviceId() }</td>
+				<td>${user.getOs()}</td>
 				<td><a href="/updateUser?id=${user.getId()}">Edit</a></td>
 				<td><a href="/deleteCar?id=${user.getId()}">Delete</a></td>
 			</tr>
-		</c:forEach>
-	</table>
-	<h1>${userById}</h1>
+	</table>  --%>
 
+<h1> <a href="/home">Back</a></h1>
 </body>
 </html>
